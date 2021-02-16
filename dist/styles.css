@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(38, 38, 38);
+    font-family: 'Roboto', sans-serif;
+}
+
+.headimg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.optionmenu {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.option {
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.option:hover {
+    cursor: pointer;
+    font-size: 22px;
+    color: antiquewhite;
+    border-bottom: solid 1px #fff;
+    transition: ease 0.2s;
+}
